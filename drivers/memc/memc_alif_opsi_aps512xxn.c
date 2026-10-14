@@ -465,7 +465,7 @@ static int memc_alif_ospi_aps512xxn_init(const struct device *dev)
 		aes_ctrl_xip_addr(config->aes_regs, &ram_addr_ctrl);
 	}
 
-	aes_set_rxds_delay(config->aes_regs, config->rxds_delay);
+//	aes_set_rxds_delay(config->aes_regs, config->rxds_delay);
 
 	aes_enable_xip(config->aes_regs);
 
